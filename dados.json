@@ -1,0 +1,39 @@
+{
+    "hotel": [
+        {
+            "id": 1,
+            "nome": "Golden Palace",
+            "nota_geral": 4.5,
+            "localizacao": "Praia Central",
+            "preco_diaria": "R$ 450,00",
+            "quantidade_quartos": 50
+        }
+    ],
+    "quarto": [
+        {
+            "id": 1,
+            "hotel_id": 1,
+            "numero_quarto": 101,
+            "preco": "R$ 450,00",
+            "disponivel": true
+        }
+    ],
+    "hospede": [
+        {
+            "id": 1,
+            "nome": "Caua",
+            "cpf": "12345678901",
+            "email": "caua@gmail.com"
+        }
+    ],
+    "reserva": [
+        {
+            "id": 1,
+            "hospede_id": 1,
+            "quarto_id": 1,
+            "data_reserva": "2022-01-01",
+            "quantidade_dias": 15,
+            "valor_total": "R$ 450,00"
+        }
+    ]
+}
